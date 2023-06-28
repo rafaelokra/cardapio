@@ -156,7 +156,7 @@
                     <a id="#menu-burgers" class="btn btn-white btn-sm mr-3 active " onclick="cardapio.metodos.obterItensCardapio('burgers')">
                         <i class="fas fa-hamburger" ></i>&nbsp; Burgers
                     </a>
-                    <a  id="#menu-pizzas"  class="btn btn-white btn-sm mr-3"onclick="cardapio.metodos.obterItensCardapio('pizzas')">
+                    <a  id="#menu-pizzas"  class="btn btn-white btn-sm mr-3 "onclick="cardapio.metodos.obterItensCardapio('pizzas')">
                         <i class="fas fa-pizza-slice" ></i>&nbsp; Pizzas
                     </a>
                     <a   id="#menu-churrasco" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('churrasco')">
@@ -181,7 +181,9 @@
             </div>
         </div>
         <div class="col-12 text-center">
-            <a class="btn btn-white btn-sm">Ver mais</a>
+            <a  id="btnVerMais"  class="btn btn-white btn-sm" onclick="cardapio.metodos.verMais()">
+                Ver mais
+            </a>
 
         </div>
 
